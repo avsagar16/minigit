@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package gitlet;
 
 import java.io.File;
@@ -14,17 +13,11 @@ import static gitlet.Utils.*;
 
 /** Represents a gitlet repository.
  *  Has the implementation for all Gitlet command including
- *  add, commit, remove, log, branch, etc.
+ *  add, commit, remove, log, branch, merge, etc.
  *
  *  @author Adithya Sagar
  */
 public class Repository implements Serializable {
-    /**
-     *
-     * List all instance variables of the Repository class here with a useful
-     * comment above them describing what that variable represents and how that
-     * variable is used. We've provided two examples for you.
-     */
 
     /** The current working directory. */
     public static final File CWD = new File(System.getProperty("user.dir"));
